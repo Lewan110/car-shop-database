@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FC41EF1C-247F-ED34-AF79-3663BD13D574" containerWithKeyObject="7FD5921F-4775-86C2-E718-7C7FDFED7D59" localFKIndex="ECCE4263-F7CC-1B67-23CD-E40DB04651F9" name="typ_platnosci">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>3C7FB244-6DAA-CFE4-5CDD-35443C5E2423</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<referredTableLongName>platnosc</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>430680AE-7D66-B8E1-7661-1DC4CCD2D0DD</referredTableID>
+<keyObject>BAB97FBB-D002-0E70-40C6-C956906B4F14</keyObject>
+<referredKeyID>BAB97FBB-D002-0E70-40C6-C956906B4F14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_platnosc</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="288A8546-67C9-C9BD-8E01-39BE1E0A30E7" name="kategoria">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:39:41 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kategoria" id="E0F9B822-F9DE-2E5B-317F-6A7624989BAA">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:39:47 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="D43328C3-FE85-4346-8A16-59ED886700AB">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:39:56 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B8FB558-FF84-F78D-6E20-F31424364EB3" name="kategoria PK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:41:25 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0F9B822-F9DE-2E5B-317F-6A7624989BAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

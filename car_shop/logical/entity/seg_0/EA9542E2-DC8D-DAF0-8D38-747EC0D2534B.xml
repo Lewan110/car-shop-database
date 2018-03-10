@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA9542E2-DC8D-DAF0-8D38-747EC0D2534B" name="dostawa">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:51:37 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dostawa" id="1282C81B-E770-6012-5507-3C45C0853D3C">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:51:53 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="CDA3E776-137E-0393-665F-68C4080552A7">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:52:09 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dostawca" id="C7AB7A16-0DCC-2DE9-FBEA-CEFB22065D4D">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:52:39 UTC</createdTime>
+<generatorID>9F3DFE3C-030E-31A5-244B-655FB5F8F1A3</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<referedAttribute>A0BB6535-DBCD-4332-3521-CC0A84992364</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A28935B-210F-5C8B-4ED4-EC9F00354D27" name="dostawa PK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:52:08 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1282C81B-E770-6012-5507-3C45C0853D3C</attributeRef>
+<attributeRef>C7AB7A16-0DCC-2DE9-FBEA-CEFB22065D4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

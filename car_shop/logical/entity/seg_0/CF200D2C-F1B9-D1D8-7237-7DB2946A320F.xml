@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF200D2C-F1B9-D1D8-7237-7DB2946A320F" name="zamowienie">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:40:11 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_zamowienie" id="374D2AEB-4D32-9DAD-2F1F-97AFE8AE28C4">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:40:21 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_zamowienia" id="EA5F071A-F623-F035-A19D-6CD303E8419D">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:40:36 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_platnosc" id="8D87DB0B-88C1-1686-93AF-B3C91A308AA6">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:48:22 UTC</createdTime>
+<generatorID>3C7FB244-6DAA-CFE4-5CDD-35443C5E2423</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<referedAttribute>7D9705C5-71DB-DE43-3753-70FCDFF6299E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_klient" id="BE4F5D9B-3B0E-4286-61C1-384ED7232505">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:48:39 UTC</createdTime>
+<generatorID>E190D573-506C-DE69-4E73-CF4C8A00A51D</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<referedAttribute>CC487BF6-0EBC-71FF-B060-401AF4A4D881</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pracownik" id="071838D0-AC5B-A257-FA8B-402866A38644">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:49:03 UTC</createdTime>
+<generatorID>63706AE7-2093-18F4-E105-D07E81E1C7C8</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<referedAttribute>02DF24F2-0BDC-5517-C437-23624FE71E00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC6F1076-B613-4B93-C283-E6F8CB393438" name="zamowienie PK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:40:35 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>374D2AEB-4D32-9DAD-2F1F-97AFE8AE28C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

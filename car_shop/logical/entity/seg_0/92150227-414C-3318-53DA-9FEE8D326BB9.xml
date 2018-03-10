@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92150227-414C-3318-53DA-9FEE8D326BB9" name="klient">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:11 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_klient" id="CC487BF6-0EBC-71FF-B060-401AF4A4D881">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:17 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="E0DA6579-0AE3-7482-CCF3-DECD7CB1CBAA">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:17 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="279F63D5-1594-8951-0754-C05BA44BDD4B">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:17 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_firmy" id="39D4396E-87E5-8005-A5B1-4CDDD3309DB4">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:36 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nip" id="5C634B99-EF90-5343-7D14-C3DF3ED7E581">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:54 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="8D1E3B8D-7367-E6DE-B2BA-488578870901">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:17 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_domu" id="ABC21E43-AC41-1A8A-0E00-72A26E4008D7">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:17 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_mieszkania" id="21EA4000-C980-CBAA-F586-39E706281306">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:17 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kod_pocztowy" id="62F128B4-FD7A-BFE6-8DB1-0D1269169F16">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:17 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="miasto" id="D91EA087-A580-75D5-0FAB-CC7378DB5115">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:17 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3211D001-DDE3-4B1E-B9AB-42A397D413A9" name="Entity_4 PK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:26:29 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC487BF6-0EBC-71FF-B060-401AF4A4D881</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

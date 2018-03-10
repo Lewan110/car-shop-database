@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57DB582A-0CB8-3A42-9C88-35D5683612C1" name="samochod">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>678ACC4E-B1B5-4DCD-C34E-DF526BDC680C</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_samochod" id="77E97ACB-3D6F-A6B6-191C-832E9FDBA740">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>4C0737F7-FFA6-3377-3BE3-ECE7F33B4CCB</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="87FDAD8E-3E13-2D70-54A7-B5D5D373DB1A">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>7C42AD6E-BF4B-6C68-0BC6-04EBFC480B4D</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilosc_siedzen" id="E913F219-18BA-6CF7-FEF9-B48D5E2E2657">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>9AD1FE43-E135-2C46-5DC5-FB422DB20D80</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="moc_silnika" id="0BF4213E-C9D3-43D4-F3B1-155E93C747D7">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>8A75FA73-315B-63B8-5656-F5E6334282C9</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok_produkcji" id="1A42AAA1-BE9F-D03F-C24C-FB415B4C6BF5">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>1F29E463-22E2-7DAD-FDEC-FC529DB50009</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="C3A693C3-87BC-E603-7375-62EA07CBDEC3">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>2B23D195-9CBE-9782-7CDF-C28BBE89CE6B</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus_za_sprzedanie" id="A2D1EC45-B372-BDA7-814E-006BB65D0F6B">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>3D8E9A15-C9B8-487F-5B10-D25AE04D92A2</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kategoria" id="63D5AB43-88E1-A977-E934-319BFA10F64A">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>B3BEEDA2-2F7F-3A0D-30B1-B0B09C610552</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65D78B9E-B7E3-7205-9AD8-8453ACE8044A" referredColumn="5A62F8E9-088D-E935-C898-5A7A00540978"/>
+</associations>
+</Column>
+<Column name="id_producent" id="5811EEDE-10C1-F45A-0D21-5CB50867C9CB">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>A30BF2DD-54F2-8A08-9607-E9E1D1CD76D6</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="196F1F21-DE66-ABC7-1C74-4A305DB001B1" referredColumn="07FF786C-4BA6-3065-1CDF-2B26D212DA12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30F4174F-0E85-8D3C-EF89-5319C17A099B" name="samochod_PK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>7C15D1FF-33BC-AF89-7F87-0B9EDAA2B0B3</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77E97ACB-3D6F-A6B6-191C-832E9FDBA740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AAF9CFD-67F0-B4C7-94CA-92072F0F698C" name="kategoria_samochodu">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>3B886F6A-8F2C-A96E-EBE8-1AC8EF33EBC7</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D5AB43-88E1-A977-E934-319BFA10F64A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="180CE670-5B43-1F89-0C28-06E1EA62AA86" name="producent_samochodu">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>2D633003-05A2-C267-3E65-63021C8B98BA</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5811EEDE-10C1-F45A-0D21-5CB50867C9CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

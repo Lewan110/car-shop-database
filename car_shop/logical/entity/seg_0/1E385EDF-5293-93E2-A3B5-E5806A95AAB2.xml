@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E385EDF-5293-93E2-A3B5-E5806A95AAB2" name="dodatkowe_wyposazenie">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:55:30 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dodatkowe_wyposazenie" id="21C52EAB-848A-87F5-344C-20B793F81949">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:55:44 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="7EC31ADD-328D-43B4-39FD-01B943849C2F">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:55:57 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena" id="0E66A2A5-9741-16BB-F278-DF0F949177DB">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:56:11 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B37BEB51-ACD2-155F-00CD-6FD9308071E7" name="dodatkowe_wyposazenie PK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:55:56 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21C52EAB-848A-87F5-344C-20B793F81949</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

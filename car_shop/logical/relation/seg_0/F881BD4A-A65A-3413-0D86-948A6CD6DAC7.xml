@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="samochod_wyposazenie" directorySegmentName="seg_0" id="F881BD4A-A65A-3413-0D86-948A6CD6DAC7">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:08 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1E385EDF-5293-93E2-A3B5-E5806A95AAB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>678ACC4E-B1B5-4DCD-C34E-DF526BDC680C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

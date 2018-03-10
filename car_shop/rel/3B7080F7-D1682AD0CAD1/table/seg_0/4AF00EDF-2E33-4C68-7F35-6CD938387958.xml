@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AF00EDF-2E33-4C68-7F35-6CD938387958" name="dostawa">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>EA9542E2-DC8D-DAF0-8D38-747EC0D2534B</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dostawa" id="A3837C1D-25CE-F047-007B-4D4302E7B64D">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>1282C81B-E770-6012-5507-3C45C0853D3C</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_dostawca" id="1EDC9416-B798-26EC-36D6-8DCCE040F1EE">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>C7AB7A16-0DCC-2DE9-FBEA-CEFB22065D4D</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7691C53A-8ECE-78A8-7C43-8235EE89D5FC" referredColumn="F92AC4E9-6DB4-C78E-AF12-AF5F0DAFD617"/>
+</associations>
+</Column>
+<Column name="data" id="B1883212-6EA5-187F-F658-1773F775D879">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>CDA3E776-137E-0393-665F-68C4080552A7</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6087BDAA-56D2-69CA-E48F-F352C60BAB14" name="dostawa_PK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>9A28935B-210F-5C8B-4ED4-EC9F00354D27</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3837C1D-25CE-F047-007B-4D4302E7B64D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25CE4E29-5041-3E8C-A575-DACEEEFEB9EF" name="dostawca_dostawy">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>9F3DFE3C-030E-31A5-244B-655FB5F8F1A3</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EDC9416-B798-26EC-36D6-8DCCE040F1EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zamowienie_klient" directorySegmentName="seg_0" id="E190D573-506C-DE69-4E73-CF4C8A00A51D">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:48:39 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<sourcePk>3211D001-DDE3-4B1E-B9AB-42A397D413A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92150227-414C-3318-53DA-9FEE8D326BB9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF200D2C-F1B9-D1D8-7237-7DB2946A320F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

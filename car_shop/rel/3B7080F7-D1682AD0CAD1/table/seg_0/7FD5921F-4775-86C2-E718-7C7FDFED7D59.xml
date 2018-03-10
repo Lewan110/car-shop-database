@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FD5921F-4775-86C2-E718-7C7FDFED7D59" name="zamowienie">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>CF200D2C-F1B9-D1D8-7237-7DB2946A320F</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zamowienie" id="C2024D68-C342-F22E-EE7C-5C24C2D6DFC0">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>374D2AEB-4D32-9DAD-2F1F-97AFE8AE28C4</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zamowienia" id="E1AA2C67-A1BF-1107-3373-8776D0388ECF">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>EA5F071A-F623-F035-A19D-6CD303E8419D</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_platnosc" id="915FE3B2-1C57-9558-6466-6871C965DFF7">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>8D87DB0B-88C1-1686-93AF-B3C91A308AA6</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC41EF1C-247F-ED34-AF79-3663BD13D574" referredColumn="E4DA0E4F-C9B2-D3CD-3793-3664B15EF1E3"/>
+</associations>
+</Column>
+<Column name="id_klient" id="3E3CA655-1472-A84F-6FBA-6E8B840CB1A2">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>BE4F5D9B-3B0E-4286-61C1-384ED7232505</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1E4C377-3478-43AF-655B-229512E5B8D5" referredColumn="A4418809-5215-1245-22BD-F5D04645FACD"/>
+</associations>
+</Column>
+<Column name="id_pracownik" id="E272A245-49B7-8D23-50AF-4D2AC74EE039">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>071838D0-AC5B-A257-FA8B-402866A38644</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09078EFD-EF62-5145-DFAC-8A5F4A087D51" referredColumn="B133B972-1ABE-160B-E8B9-96778AFD197C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A13ADB4-64F0-D791-7DFB-BF39CD37BA81" name="zamowienie_PK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>CC6F1076-B613-4B93-C283-E6F8CB393438</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2024D68-C342-F22E-EE7C-5C24C2D6DFC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECCE4263-F7CC-1B67-23CD-E40DB04651F9" name="typ_platnosci">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>3C7FB244-6DAA-CFE4-5CDD-35443C5E2423</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="915FE3B2-1C57-9558-6466-6871C965DFF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E820E737-22DB-6ECC-C947-C6ADECA3CE16" name="zamowienie_klienta">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>E190D573-506C-DE69-4E73-CF4C8A00A51D</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E3CA655-1472-A84F-6FBA-6E8B840CB1A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC9B9FA0-2543-858E-AED3-A5051CEC1302" name="zamowienie_pracownika">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>63706AE7-2093-18F4-E105-D07E81E1C7C8</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E272A245-49B7-8D23-50AF-4D2AC74EE039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

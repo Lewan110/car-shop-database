@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55A59150-61C0-48A7-37AC-439EA715608E" name="dostawa_pozycja">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dostawa" id="ACC10EA0-6FD0-4505-50FC-BDFB84CEBCD3">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C465CC92-16CF-69D2-9602-059EE87D5CB7" referredColumn="A3837C1D-25CE-F047-007B-4D4302E7B64D"/>
+</associations>
+</Column>
+<Column name="id_samochod" id="08503628-B29A-C99A-421B-E110F91F68B6">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11991D38-B7A7-222D-8809-B6083CA9BCCC" referredColumn="77E97ACB-3D6F-A6B6-191C-832E9FDBA740"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9E276FF-FAED-F64F-2672-3A78004ACA7A" name="dostawa_pozycja_PK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACC10EA0-6FD0-4505-50FC-BDFB84CEBCD3"/>
+<colUsage columnID="08503628-B29A-C99A-421B-E110F91F68B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="272395E3-A5F0-CEDA-CFCB-80FE5C97EB12" name="dostawa_FK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>F8EBE498-75CE-281A-1310-E81E66774752</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACC10EA0-6FD0-4505-50FC-BDFB84CEBCD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7781FA1F-C339-1C81-3B03-7F3BF3ABC56A" name="samochod_dostawa_FK">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:57:48 UTC</createdTime>
+<generatorID>F8EBE498-75CE-281A-1310-E81E66774752</generatorID>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08503628-B29A-C99A-421B-E110F91F68B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

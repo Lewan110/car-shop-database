@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sposob_platnosci" directorySegmentName="seg_0" id="3C7FB244-6DAA-CFE4-5CDD-35443C5E2423">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-01-09 08:48:22 UTC</createdTime>
+<ownerDesignName>sklepppppp</ownerDesignName>
+<engineerTo>
+<item key="3B7080F7-D0C4-232C-7A86-D1682AD0CAD1" value="true"/>
+</engineerTo>
+<sourcePk>1A399CC5-E578-0D8A-1EBA-9AF61AF32F52</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>090B1174-95CC-5619-BA53-C258EA54086E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF200D2C-F1B9-D1D8-7237-7DB2946A320F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

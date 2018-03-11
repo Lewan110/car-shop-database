@@ -1,5 +1,5 @@
 
-Projekt zaliczeniowy(dlatego jest po polsku) baz danych wykonany w Oracle SQL Developer+ uproszczona wersja MySQL.
+Projekt zaliczeniowy(dlatego baza jest po polsku) baz danych wykonany w Oracle SQL Developer+ uproszczona wersja MySQL.
 
 Uproszczony DB Doc znajduje się pod adresem http://st-mobilny.pl/baza.html 
 

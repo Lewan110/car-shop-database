@@ -16,7 +16,7 @@ INSERT INTO pracownik VALUES(5,'Olaf','Sreberko',TO_DATE('12-Lut-2002','DD-MON-Y
 
 INSERT INTO klient VALUES(1,'Stanislaw','Schabowy','Wszystko i nic','123456789','Stara',5,null,'00-001','Warszawa');
 INSERT INTO klient VALUES(2,'Stanislaw','Wolny',null,null,'Pochodnia',15,null,'00-222','Warszawa');
-INSERT INTO klient VALUES(3,'Piotr','£otr','Stare i nowe','121212121','Nowa',5,5,'11-001','Warszawa');
+INSERT INTO klient VALUES(3,'Piotr','Â£otr','Stare i nowe','121212121','Nowa',5,5,'11-001','Warszawa');
 INSERT INTO klient VALUES(4,'Jan','Doskonaly','Mydlo i powidlo','123456123','Mydlana',7,null,'00-111','Wolomin');
 INSERT INTO klient VALUES(5,'Anna','Panna',null,null,'Piekna',7,null,'00-001','Warszawa');
 

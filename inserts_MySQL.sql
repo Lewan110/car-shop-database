@@ -22,7 +22,7 @@ INSERT INTO klient VALUES(1,'Stanislaw','Schabowy','Wszystko i nic','123456789',
 
 INSERT INTO klient VALUES(2,'Stanislaw','Wolny',NULL,NULL,'Pochodnia',15,NULL,'00-222','Warszawa');
 
-INSERT INTO klient VALUES(3,'Piotr','£otr','Stare i nowe','121212121','Nowa',5,5,'11-001','Warszawa');
+INSERT INTO klient VALUES(3,'Piotr','Â£otr','Stare i nowe','121212121','Nowa',5,5,'11-001','Warszawa');
 
 INSERT INTO klient VALUES(4,'Jan','Doskonaly','Mydlo i powidlo','123456123','Mydlana',7,NULL,'00-111','Wolomin');
 
@@ -53,11 +53,11 @@ INSERT INTO samochod VALUES(5,'Uno',5,100,2014,50000,5,2,5);
 
 INSERT INTO samochod VALUES(6,'Master',3,300,2016,100000,10,3,3);
 
-INSERT INTO dodatkowe_wyposa¿enie VALUES(1,'aluminiowe felgi',5000);
-INSERT INTO dodatkowe_wyposa¿enie VALUES(2,'klimatyzacja',2000);
-INSERT INTO dodatkowe_wyposa¿enie VALUES(3,'nawigacja',1000);
-INSERT INTO dodatkowe_wyposa¿enie VALUES(4,'system audio',5000);
-INSERT INTO dodatkowe_wyposa¿enie VALUES(5,'system parkowania',1500);
+INSERT INTO dodatkowe_wyposaÂ¿enie VALUES(1,'aluminiowe felgi',5000);
+INSERT INTO dodatkowe_wyposaÂ¿enie VALUES(2,'klimatyzacja',2000);
+INSERT INTO dodatkowe_wyposaÂ¿enie VALUES(3,'nawigacja',1000);
+INSERT INTO dodatkowe_wyposaÂ¿enie VALUES(4,'system audio',5000);
+INSERT INTO dodatkowe_wyposaÂ¿enie VALUES(5,'system parkowania',1500);
 
 INSERT INTO dostawa VALUES(1,2, '2018-01-02');
 
